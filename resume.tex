@@ -1,0 +1,479 @@
+%-------------------------
+% Resume in Latex
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://noroutine.me/}{\Large Oleksii Khilkevych, MSc}} & Email : \href{mailto:oleksiy@noroutine.me}{oleksiy@noroutine.me}\\
+  \href{https://noroutine.me/}{https://noroutine.me} & Mobile : +49 163 166 9687 \\
+\end{tabular*}
+
+
+\section{About Me}
+
+My focus is on providing first-class consultancy, using my background in tech and business. 
+
+\
+
+Apart from solid technical background in classic developer and devops roles, I have experience in several big migrations of critical infrastructure, have trained small to large teams.
+
+\
+
+I am able to speed up cultural transformation, can tackle, analyse and break-down high-level roadmap items, as well as advise on best practices in tech, compliance and security. Where required, I can train teams to help them cross technological barriers faster and at the same speed for all team members.
+
+\
+
+I'm very well aware of a huge gap between desire for faster yet controllable change at management level and actually having that agility within teams. The gap that is caused by tech or communication barriers, legacy toolset, isolated knowledge islands, regulations, process inertia and so on. I can shorten that gap for your particular case, advise on how to tackle it or kickoff the transformation myself.
+
+\
+
+The most important in crossing that gap for me is to maintain business continuity and steer the transformation in controllable way. 
+
+\
+
+Open for on-site and remote contracts
+
+	\paragraph{Highlights}
+	\
+	
+	LIR Maintainer
+	
+	Highly successful datacenter high-availability setup for global payment company
+	
+	Infrastructure migrations for leading payments services provider in Germany
+	
+	Extensive development experience as Java, JavaScript and Golang developer, last years it was mostly Go
+		
+	Wrote projects in Java and Go, plugins and dynamic inventories for Ansible in Python, plugins for Jenkins in Java, plugins for Vagrant in Ruby, tools in Perl+GTK
+	
+	Performed CI/CD infrastructure setup and maintenance from code for various setups, including Jenkins, Gerrit, Artifactory, Nexus and GitLab
+	
+	Hands-on experience with containers on Nomad, Kubernetes in Docker, rkt and cri-o runtimes
+	
+	Hands-on experience with automation tools (Puppet, Ansible, Terraform, Vagrant, Packer)
+	
+	I am familiar with most cloud infrastructures (OpenShift 2/3, AWS, GCP, Bluemix, Heroku, CloudFoundry) and on-premises (VMWare, OpenStack)
+	
+	Hands-on experience with development processes and tools like code reviews, git flow, as well as most development build tools
+	
+	Database Administration (PostgreSQL in HA configurations with streaming replication, pgLogical or BDR)
+	
+	Performed virtualization infrastructure setup and maintenance from code(VMWare/Ansible/Terraform) and using my own templates baked with packer
+		
+	Hands-on experience with all infrastructure backyard like load balancers, proxy servers, DNS servers, SMTP, custom packaging
+	
+	Expert in Digital Certificates, maintained multi-level PKI and worked with custom OIDs among other things)
+	
+	Hands-on Network and System Administrator from Internet and WAN down to edge devices
+	
+	Experience with automating HSMs
+
+	Constantly trying new things and running my own lab infrastructure for experiments
+	
+	Trained several teams on various topics, like Git, Gerrit, DevOps
+	
+	Lead of several teams
+	
+	Experience working in PCI-DSS regulated environment
+	
+	Experience with GDPR implementation in several companies
+	
+
+%-------- SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Golang, Java, Groovy, Python, JavaScript, SQL, Bash}
+      \hfill
+    }
+   	\item {
+      \textbf{Web Frontend}{: JavaScript, TypeScript, React, Angular, CSS/SASS, jQuery, vanilla.js}
+	}
+   	\item {
+      \textbf{Backend}{: Go, node.js, Spring, Hibernate}
+	}
+   	\item {
+      \textbf{Databases}{: PostgreSQL, Mongo, Redis, ElasticSearch, Consul}
+	}
+   	\item {
+      \textbf{Platforms}{: AWS, GCP, Azure, OpenStack, VMWare, KVM/openvirt, vagrant, bare-metal}
+	}
+   	\item {
+      \textbf{Image Backing}{: packer, cloud-init, RedHat-based or Debian-based for VMWare, Virtualbox or clouds}
+	}
+   	\item {
+      \textbf{Automation/CI\&CD}{: Ansible, Puppet, Terraform, Jenkins, GitLab CI, Travis}
+	}
+   	\item {
+      \textbf{Code Repo/Code Review}{: bare Git, GitHub, GitLab, Gerrit}
+	}
+   	\item {
+      \textbf{Artifact Repositories}{: Nexus, Artifactory}
+	}
+	\item {
+      \textbf{Containers}{: Nomad, K8s, Docker, Docker Swarm, rkt, CRI-O, LXC}
+	}
+	\item {
+      \textbf{Monitoring}{: Pingdom, Prometheus, m3db, Alerta, InfluxDB, ELK, Grafana, writing my own exporters}
+	}
+	\item {
+      \textbf{Service Discovery}{: etcd, Consul}
+	}
+	\item {
+      \textbf{DevSecOps}{: HashiCorp Vault, Ansible Vault, istio, GnuPG}
+	}
+   	\item {
+      \textbf{Data Analytics}{: Spark, Luigi, Jupyter, ELK}
+	}
+   	\item {
+      \textbf{Active LIR}{: ASN, IPv4, IPv6, IPAM, RDNS, RPKI}
+	}
+   	\item {
+      \textbf{CDN/Traffic Management}{: CloudFlare, Akamai, F5 GTM, multicast DNS}
+	}
+   	\item {
+      \textbf{Backbone Networking}{: LAN/WAN routing, xNAT, L2-L7 balancing, firewalls, L2/L3 switches, spine-leaf}
+	}
+   	\item {
+      \textbf{Core Networking}{: VLAN, VxLAN, GRE, BGP, OSPF, VRRP}
+	}
+   	\item {
+      \textbf{Network Protocols}{: TCP/IP, HTTP, DNS, LDAP, NTP, RADIUS, SMTP, SPF, DMARC, DKIM}
+	}
+   	\item {
+      \textbf{VPN}{: client-to-site and site-to-site IPSec, L2TP, OpenVPN, Wireguard, SD-WAN}
+	}
+   	\item {
+      \textbf{Centralized IDM}{: PAM, Kerberos V, OAuth, LDAP, RADIUS, client TLS, FreeIPA, Active Directory}
+	}
+   	\item {
+      \textbf{PKI}{: Root and Intermediate CA management, TLS1.2/1.3, OCSP, custom OID fields}
+	}
+   	\item {
+      \textbf{SAN}{: iSCSI (targetcli, 3par, Isilon), RDMA/RoCE, FibreChannel, Infiniband}
+	}
+   	\item {
+      \textbf{NAS}{: NFSv3/v4, Samba}
+	}
+   	\item {
+      \textbf{DAS}{: SAS/SCSI, all-flash arrays, RAID0/1/5/6/10}
+	}
+   	\item {
+      \textbf{Storage Clusters}{: vSAN, ScaleIO, DRBD, GlusterFS, Ceph, Minio}
+	}
+   	\item {
+      \textbf{Troubleshooting}{: System/Storage/Network performance, tcpdump}
+	}
+   	\item {
+      \textbf{Payments}{: Transactions, PSP integration, 3DSecure}
+	}
+   	\item {
+      \textbf{Security}{: Physical and Digital Security Advisory/Audit}
+	}
+   	\item {
+      \textbf{Compliance}{: GDPR, PCI DSS, PSD2}
+	}
+   	\item {
+      \textbf{Human Languages}{: English (advanced with funny accent), German (B2), Ukrainian (native)}
+	}
+
+  \resumeSubHeadingListEnd
+
+
+ 
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Noroutine GmbH | IT Consultancy, Recruiting \& LIR Services}{Munich, Germany}
+      {DevOps Engineer, Security Officer, Data Protection Officer, CEO}{Oct 2018 - Present}
+      \resumeItemListStart
+\
+
+          Designed from scratch and implemented as a code complete corporate network, storage and computing infrastructure in hybrid cloud model, where our on-premises resources are transparently networked with Azure and Vultr resources.
+
+        \resumeItem{Tech Consulting}
+          {As a tech consultancy we specialize in DevOps, Dev and Data Analytics, tough projects like infrastructure architecture in hybrid-,on-premise- and multi-cloud setup, migrations and many many more }
+        \resumeItem{Recruiting}
+          {On a recruitment track we source and provide our clients qualified talent. I'm providing training and my expertise in DevOps, Security and GDPR. Also I am performing technical screening for all sourced candidates }
+        \resumeItem{Compliance}
+          {As Security Officer and Data Protection Officer, I am maintaining internal security policies and ensuring GDPR compliance}          
+ 
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Allianz Technology SE | Global Data Platform}{Munich, Germany}
+      {DevOps Consultant}{Oct 2019 - Sep 2020}
+      \resumeItemListStart
+      \ 
+      
+      Architected and implemented from scratch multi-tenant highly-available containerized monitoring solution for 50+ environments with alerting and long-term storage
+      
+      Wrote metrics exporters in Go for LDAP and NFS monitoring, as openly available solutions didn't meet the business requirements
+      
+      Some of tools, among many involved: Prometheus, m3db, Alerta, ElasticSearch, Grafana
+
+      \resumeItemListEnd
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {ACI Worldwide, Inc. | Banking \& Payments Solutions}{Naples, Florida, United States}
+      {DevOps Consultant}{Oct 2018 - Oct 2019}
+      \resumeItemListStart
+      \
+
+I went on with ACI as a contractor on AHS project to introduce active-hotstandby cross-datacenter traffic switchover for production environment with over 300 peak tps
+
+The project goal was to reduce customer-facing incident impact during major platform outages. In case of major incident in live processing datacenter, the automated solution is supposed to detect failure condition and switchover complete transaction processing to DR site.
+
+  
+          My particular responsibility was two-fold: 1) to implement tooling for controlled manual and automated switchovers, and 2)  monitoring solution coupled with rule engine, that would trigger switchover on particular predefined condition.
+          
+          The tooling was implemented in Go and consists of CLI interface for various platform components to orchestrate switchover across platform components, and witness daemon for proactive monitoring and incident detection.
+          
+          Part of witness daemon is a rule engine, that detects failure condition and performs automated failover if condition is met
+          
+          The tooling was designed to be clustered HA solution with safety measures to assist teams with DR exercises and gracefully handle maintenance windows
+
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {ACI Worldwide Germany GmbH | Banking \& Payments Solutions}{Munich, Germany}
+      {Senior Software Engineer (DevOps)}{Nov 2015 - Oct 2019}
+      \resumeItemListStart
+
+\
+
+		I joined PAY.ON as first DevOps Engineer in a strict security oriented and PCI-regulated startup with large legacy code base and left a team with great DevOps mindset and modern stack
+
+		My core activities at PAY.ON/ACI over 5 years were around improving tooling and infrastructure, infrastructure migrations, driving forward DevOps roadmap, mentoring new hires, strengthening interactions among teams and nurturing DevOps culture.
+         
+        \resumeItem{Completed projects with direct involvement}
+          {
+          
+          Migration of source code with 10k+ unit tests from Subversion to Git
+          
+          Migration of build systems in 3 large source bases from Ant to Gradle
+
+          Setup and maintenance of Gerrit instances
+          
+          Setup and maintenance of Artifactory instances
+          
+          Setup and maintenance of dev Jenkins clusters
+          
+          Migration of Jenkins jobs to Jenkins Job DSL
+          
+          Development and maintenance of Vagrant-based Development VM for 50+ developers
+          
+          In-house release tooling improvements and maintenance
+          
+          Production environment migration to new datacenter
+          
+          Datacenter switchovers and creating of tooling for it
+          
+          Jira migration to ACI Active Directory
+          
+          UltraDNS/Pingdom management CLI in Go (reliable and fast live traffic redirection)
+          
+          Migrated internal inventory tool to Perl+GTK3
+         
+		}
+		
+		\resumeItem{Trainings, PoCs, code retreats, hackatons}
+          {
+          
+		  Training around 50 developers on Git
+
+          Conducted weekly code retreats around DevOps topics
+
+          Conducted numerous PoCs on K8s, containerization, virtualization, automation, took part in hackatons
+
+          Kubernetes PoC for dev infrastructure, comparing docker and crio
+          
+          OpenStack internal hackaton on creating vms from templates
+          
+          VMWare automation PoC (creating VMs from PCI-compliant templates with help of custom Ansible module)
+          
+          PCI-compliant VM template built with packer
+
+          Containerization internal hackaton to run one of our core projects on Kubernetes
+          
+          Jenkins Xray plugin PoC (tracks code Test coverage for every Git commit)
+          
+          Ansible dynamic inventory PoC (provides Ansible with entries from or internal server inventory database)
+          
+          Release orchestration from Jira (trigger and coordinate Jenkins jobs with Jira transitions)
+          
+          Docker Swarm PoC (prototyped our complete dev infra in containers)
+          
+          Unified server/dev vm template that can be continuously delivered to provide developers and operations with single-image compliant base VM, that can be reused in Vagrant, VMWare, OpenStack and AWS
+
+          Corosync binding for Go (to interface with corosync/pacemaker from Go code)
+          
+          }
+            
+
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {PAY.ON AG (now part of ACI) | Whitelabel Payment Services Provider}{Munich, Germany}
+      {Senior Software Engineer (DevOps)}{Sep 2014 - Nov 2015}
+
+      
+    \resumeSubheading
+      {Gastrofix GmbH (now part of Lightspeed) | Innovative POS\&Cash Register}{Berlin, Germany}
+      {Java Web Developer}{Jan 2012 - Dec 2013}
+      \resumeItemListStart
+        \resumeItem{Fullstack Developer}
+          {I was covering web frontend, backend. Our system evolves around iOS application, that is managed by Web UI. Backoffice stack consists of Angular, Spring, JasperReports and PostgreSQL+Mongo.}
+        \resumeItem{DevOps Engineer}
+          {Was responsible for database and servers’ healthcare, webops, devops and backups. Using Chef, Jenkins, Munin and Nagios and a lot of other stuff for dev/web operations. Maintained iOS CI/CD pipeline }
+        \resumeItem{iOS WebUI Developer}
+          {Also worked on some mobile parts, for example implemented convenient multi-layered SVG-based restaurant room designer}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {8 more projects}{Kyiv, Ukraine}
+      {as Developer, DevOps, System Administrator, Team Lead}{Sep 2003 - Apr 2013}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+%\section{Culture}
+%  \resumeSubHeadingListStart
+%    \resumeSubItem{QuantSoftware Toolkit}
+%      {Open source python library for financial data analysis and machine learning for finance.}
+%    \resumeSubItem{Github Visualization}
+%      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+%    \resumeSubItem{Recommendation System}
+%      {Music and Movie recommender systems using collaborative filtering on public datasets.}
+%    \resumeSubItem{Mac Setup}
+%      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+%  \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS--------------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {About Taxes in Ukraine (in Ukrainian)}{September 2020 for https://dou.ua/}
+      {Analysis of tax changes in Ukrainian IT}{}
+      \
+      
+      \href{https://dou.ua/lenta/columns/stop-giving-milk-for-free/}{https://dou.ua/lenta/columns/stop-giving-milk-for-free/}
+
+    \resumeSubheading
+      {What Constitutes a Senior (in Ukrainian)}{June 2020 for https://dou.ua/}
+      {Breaking down what values shall a Senior professional have}{}
+      \
+      
+      \href{https://dou.ua/lenta/columns/senior-middle-junior-comparison/}{https://dou.ua/lenta/columns/senior-middle-junior-comparison/}
+
+    \resumeSubheading
+      {8 other technical articles (in Russian)}{2011-2012 for https://habr.com/}
+      {Mostly Software Development topics}{}
+      \
+      
+      \href{https://habr.com/en/users/1ex/posts/}{https://habr.com/en/users/1ex/posts/}
+      
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Igor Sikorsky Kyiv Polytechnic Institute}{Kyiv, Ukraine}
+      {Master of Computer Sciences in the field of Systems Analysis}{May 2009}
+
+  \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
